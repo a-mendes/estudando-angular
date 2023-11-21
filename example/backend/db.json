@@ -1,0 +1,30 @@
+{
+    "movies":
+    [
+        {
+            "id": 1,
+            "name": "Harry Potter e a Pedra Filosofal",
+            "year": 2001
+        },
+        {
+            "id": 2,
+            "name": "A Fantástica Fábrica de Chocolate",
+            "year": 2005
+        },
+        {
+            "id": 3,
+            "name": "Clube da Luta",
+            "year": 1999
+        },
+        {
+            "id": 4,
+            "name": "Guerra Mundial z",
+            "year": 2013
+        },
+        {
+            "id": 5,
+            "name": "Barbie",
+            "year": 2023
+        }
+    ]
+}
