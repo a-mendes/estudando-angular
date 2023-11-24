@@ -1,0 +1,16 @@
+.card {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.card .title {
+    color: purple;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.card .subtitle {
+    color: purple;
+    font-weight: 100;
+}

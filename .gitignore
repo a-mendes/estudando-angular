@@ -1,2 +1,5 @@
-
 example/backend/node_modules
+
+example/frontend/node_modules
+example/frontend/.vscode
+example/frontend/.angular

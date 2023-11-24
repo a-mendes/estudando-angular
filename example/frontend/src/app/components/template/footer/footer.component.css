@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: end;
+
+    position: absolute;
+    bottom: 0;
+
+    background-color:  #512D6D;
+}
+
+.footer .contact {
+    margin: 3px;
+}

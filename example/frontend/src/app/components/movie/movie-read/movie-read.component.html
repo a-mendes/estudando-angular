@@ -1,0 +1,31 @@
+
+<mat-table [dataSource]="movies" class="table mat-elevation-z8">
+
+    <ng-container matColumnDef="id">
+        <th class="header" mat-header-cell *matHeaderCellDef> No. </th>
+        <td class="row" mat-cell *matCellDef="let movie"> {{movie.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+        <th class="header" mat-header-cell *matHeaderCellDef> Nome </th>
+        <td class="row" mat-cell *matCellDef="let movie"> {{movie.name}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="year">
+        <th class="header" mat-header-cell *matHeaderCellDef> Ano de Lançamento </th>
+        <td class="row" mat-cell *matCellDef="let movie"> {{movie.year}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+        <th class="header" mat-header-cell *matHeaderCellDef> Ações </th>
+        <td class="row" mat-cell *matCellDef="let movie"> 
+            <button mat-mini-fab color="primary" (click)="excluirItem(movie)">
+                <i class="material-icons">delete</i>
+            </button>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</mat-table>

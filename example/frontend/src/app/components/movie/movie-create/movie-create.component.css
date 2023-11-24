@@ -1,0 +1,17 @@
+.container {
+    display: inline-block;
+    width: 90%;
+    margin: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: middle;
+    padding: 15px;
+}
+
+.form .field, .form .button {
+    width: 200px;
+}

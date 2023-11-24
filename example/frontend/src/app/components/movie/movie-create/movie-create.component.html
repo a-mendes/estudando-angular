@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Cadastro de Filme</h2>
+    <form class="form">
+        <mat-form-field class="field" appearance="outline">
+            <mat-label>Nome do filme</mat-label>
+            <input matInput placeholder='"Harry Potter"' name="name" [(ngModel)]="name">
+        </mat-form-field>
+
+        <mat-form-field class="field" appearance="outline">
+            <mat-label>Ano de Lançamento</mat-label>
+            <input matInput placeholder='"2007"' name="year" [(ngModel)]="year">
+        </mat-form-field>
+
+        <button class="button" mat-flat-button color="primary" (click)="cadastrarFilme(name, year)">
+            <i class="material-icons">add</i> Cadastrar
+        </button>
+    </form>
+</div>
